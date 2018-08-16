@@ -26,7 +26,7 @@ double getM(char m) {
 }
 
 double getP(char p) {
-	return std::stod(&p) / 100;
+	return std::stod(&p) / 10;
 }
 
 double getT(string input) {
