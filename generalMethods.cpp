@@ -102,7 +102,7 @@ bool writeFile(double * upperX, double * lowerX, double * upperY, double * lower
 	}
 
 	//For ANSYS CFX
-	airfoilCoords << "Polyline = true" << endl;
+	//airfoilCoords << "Polyline = true" << endl;
 
 	airfoilCoords << std::setprecision(6) << std::fixed;
 	//Print the upper coordinates
